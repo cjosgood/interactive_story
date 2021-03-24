@@ -1,0 +1,59 @@
+/* Index */
+
+/* background color*/
+body {
+    background-color: black;
+}
+
+/* font color */
+.text-white {
+    color:white;
+}
+
+/* centering text and start button*/
+p {
+    text-align:center;
+    font-size: 17px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    font-size: 17px;
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+    font-size: 15px;
+}
+
+/* font style */
+.benne-font {
+    font-family: 'Benne', serif;
+}
+
+/* button */
+button {
+    font-size: 17px;
+}
+
+/* button color */
+button:hover {
+    background-color:paleturquoise;
+}
+
+/* centering image */
+img.displayed {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid white;
+}

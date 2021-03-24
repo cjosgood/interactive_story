@@ -1,0 +1,47 @@
+/* Choice3-A */
+
+/* background color*/
+body {
+    background-color: black;
+}
+
+/* font color */
+.text-white {
+    color:white;
+}
+
+/* font style */
+.benne-font {
+    font-family: 'Benne', serif;
+}
+
+/* centering */
+p {
+    text-align:center;
+    font-size: 17px;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: crimson;
+    text-decoration: wavy;
+    font-size: 17px;
+}
+
+img.displayed {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid white;
+}
+
+code {
+    font-family: 'Cormorant SC', serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}

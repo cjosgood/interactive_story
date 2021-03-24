@@ -1,0 +1,40 @@
+/* Lose */
+
+/* background color*/
+body {
+    background-color: black;
+}
+
+/* font color */
+.text-white {
+    color:white;
+}
+
+/* font style */
+.benne-font {
+    font-family: 'Benne', serif;
+}
+
+/* centering */
+p {
+    text-align:center;
+    font-size: 17px;
+}
+
+h1 {
+    text-align: center;
+}
+
+img.displayed {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid white;
+}
+
+a {
+    color: crimson;
+    text-decoration: wavy;
+    font-size: 17px;
+    cursor: pointer;
+}

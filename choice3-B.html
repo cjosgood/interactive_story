@@ -1,0 +1,63 @@
+<!-- This is the view for Choice 3: Decision B -->
+<html>
+    <head>
+        <title> The House in the Woods </title>
+        <link rel="icon" href="assets/logo.jpg">
+        <link href='styles/choice3-B.css' rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap" rel="stylesheet">
+        <script>
+            function inputController() {
+                if (input1.value == '427386') {
+                    parent.location='success.html';
+                }
+                else {
+                    parent.location='choice4-A.html';
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <span class='benne-font'>
+        <h1 style="color: yellow;"> Jackpot! </h1>
+        <p class='bg-dark text-white'>
+            Behind the painting, you find a safe in the wall.
+        </p>
+
+        <code>
+            This has to be what these numbers belong to!
+        </code>
+
+        <table class ="center">
+            <tr>
+                <td> 1 </td>
+                <td> 2 </td>
+                <td> 3 </td>
+            </tr>
+            <tr>
+                <td> 4 </td>
+                <td> 5 </td>
+                <td> 6 </td>
+            </tr>
+            <tr>
+                <td> 7 </td>
+                <td> 8 </td>
+                <td> 9 </td>
+            </tr>
+        </table>
+
+        <p class='bg-dark text-white'>
+           You enter the combination into the keypad: 427386. 
+        </p>
+
+        <div style="text-align:center">
+            <label class="bg-dark text-white"> 
+                Combination:
+                <input type="text" id='input1'>
+                <input type="button" value='Submit' onclick="inputController()">
+            </label>
+        </div>
+    </span>
+    </body>
+</html>

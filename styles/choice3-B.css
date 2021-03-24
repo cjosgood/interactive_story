@@ -1,0 +1,74 @@
+/* Choice3-B */
+
+/* background color*/
+body {
+    background-color: black;
+}
+
+/* font color */
+.text-white {
+    color:white;
+}
+
+/* font style */
+.benne-font {
+    font-family: 'Benne', serif;
+}
+
+/* centering */
+p {
+    text-align:center;
+    font-size: 17px;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    text-size-adjust: 17px;
+    text-align: center;
+}
+
+code {
+    font-family: 'Cormorant SC', serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+
+label {
+    font-size: 17px;
+}
+
+input[type=text] {
+    font-size: 17px;
+}
+
+input[type=button] {
+    background-color: lightblue;
+    border: none;
+    text-decoration: none;
+    cursor:pointer;
+    font-size: 15px;
+}
+
+table, td{
+    border: 5px solid darkgray;
+    border-collapse: collapse;
+    background-color:gainsboro;
+    font-weight: bold;
+}
+
+td {
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}

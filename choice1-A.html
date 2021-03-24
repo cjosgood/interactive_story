@@ -1,0 +1,61 @@
+<!-- This is the view for Choice 1: Decision A -->
+
+<html>
+    <head>
+        <title> The House in the Woods </title>
+        <link rel="icon" href="assets/logo.jpg">
+        <link href='styles/choice1-A.css' rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Benne&display=swap" rel="stylesheet">
+        <script>
+            function inputController() {
+                if (option1.checked && option2.checked) {
+                    parent.location='lose.html';
+                }
+                else if (option1.checked) {
+                    parent.location='choice2-A.html';
+                }
+                else if (option2.checked) {
+                    parent.location='choice2-B.html'
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <span class='benne-font'>
+        <h1 class='bg-dark text-white'> You arrive at the door of the house. </h1>
+        <img class="displayed" src='assets/inside-house.jpg' width='500'>
+        <p class='bg-dark text-white'>
+            Everyone forces you to open the door. As you do, the door loudly opens.
+        </p>
+
+        <div class='audio-container'>
+            <audio controls>
+                <source src="assets/door-creaking.mp3">
+            </audio>
+        </div>
+
+        <p class='bg-dark text-white'> 
+            The place is a mess, but your friends want to explore.
+            They quickly realize there is an upstairs.
+        </p>
+
+        <div class='bg-dark text-white'>
+            <label>Who do you decide to go with? CHOOSE ONLY ONE.</label>
+            <br>
+            <label>
+                <input type="checkbox" id='option1' name='input-name' value='option1'>
+                <span class="checked"></span>
+                Go with Chad and Jessica upstairs
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" id='option2' name='input-name' value='option2'>
+                <span class="checked"></span>
+                Stay with Eric and Samantha on the first floor
+            </label>
+            <br>
+            <input type="button" onclick="inputController()" value='Submit' >
+        </div>
+        </span>
+    </body>
+</html>

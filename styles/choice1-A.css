@@ -1,0 +1,60 @@
+/* Choice1-A */
+
+/* background color*/
+body {
+    background-color: black;
+}
+
+/* font color */
+.text-white {
+    color:white;
+}
+
+/* font style */
+.benne-font {
+    font-family: 'Benne', serif;
+}
+
+/* centering */
+p {
+    text-align:center;
+    font-size: 17px;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    text-size-adjust: 20px;
+    text-align: center;
+}
+
+img.displayed {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid white;
+}
+
+.audio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=button] {
+    background-color: lightblue;
+    border: none;
+    text-decoration: none;
+    cursor:pointer;
+    font-size: 15px;
+}
+
+input[type=checkbox] {
+    cursor:pointer;
+}
+
+label {
+    font-size: 17px;
+}

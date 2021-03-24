@@ -1,0 +1,38 @@
+/* Choice2-B */
+
+/* background color*/
+body {
+    background-color: black;
+}
+
+/* font color */
+.text-white {
+    color:white;
+}
+
+/* font style */
+.benne-font {
+    font-family: 'Benne', serif;
+}
+
+/* centering */
+p {
+    text-align:center;
+    font-size: 17px;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: red;
+    font-size: 17px;
+}
+
+img.displayed {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid white;
+}
